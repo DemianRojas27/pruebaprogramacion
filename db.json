@@ -1,0 +1,285 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "alumno",
+      "asignatura": "Programación",
+      "password": "123",
+      "seccion": "1",
+      "asistencias": [
+        {
+          "asignatura": "Programación",
+          "seccion": "1",
+          "fecha": "2024-11-01T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Calidad de Software",
+          "seccion": "1",
+          "fecha": "2024-11-02T08:00:00Z",
+          "asistio": false
+        },
+        {
+          "asignatura": "Arquitectura",
+          "seccion": "1",
+          "fecha": "2024-11-01T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Bases de Datos",
+          "seccion": "1",
+          "fecha": "2024-11-02T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Matemáticas",
+          "seccion": "1",
+          "fecha": "2024-11-03T08:00:00Z",
+          "asistio": false
+        },
+        {
+          "asignatura": "Inglés",
+          "seccion": "1",
+          "fecha": "2024-11-04T08:00:00Z",
+          "asistio": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "alumno1",
+      "password": "1234",
+      "asignatura": "Inglés",
+      "seccion": "2",
+      "asistencias": [
+        {
+          "asignatura": "Inglés",
+          "seccion": "2",
+          "fecha": "2024-11-01T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Programación",
+          "seccion": "2",
+          "fecha": "2024-11-02T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Calidad de Software",
+          "seccion": "2",
+          "fecha": "2024-11-01T08:00:00Z",
+          "asistio": false
+        },
+        {
+          "asignatura": "Arquitectura",
+          "seccion": "2",
+          "fecha": "2024-11-02T08:00:00Z",
+          "asistio": false
+        },
+        {
+          "asignatura": "Bases de Datos",
+          "seccion": "2",
+          "fecha": "2024-11-03T08:00:00Z",
+          "asistio": true
+        },
+        {
+          "asignatura": "Ciberseguridad",
+          "seccion": "2",
+          "fecha": "2024-11-04T08:00:00Z",
+          "asistio": true
+        }
+      ]
+    }
+  ],
+  "profes": [
+    {
+      "id": "1",
+      "username": "profe",
+      "password": "profe"
+    },
+    {
+      "id": "2",
+      "username": "profe1",
+      "password": "profe1"
+    },
+    {
+      "id": "3",
+      "username": "profe2",
+      "password": "profe2"
+    },
+    {
+      "id": "4",
+      "username": "profe3",
+      "password": "profe3"
+    },
+    {
+      "id": "5",
+      "username": "profe4",
+      "password": "profe4"
+    },
+    {
+      "id": "6",
+      "username": "profe5",
+      "password": "profe5"
+    },
+    {
+      "id": "7",
+      "username": "profe6",
+      "password": "profe6"
+    }
+  ],
+  "asignaturas": [
+    {
+      "id": 1,
+      "nombre": "Programación",
+      "seccion": "1",
+      "profeId": "1"
+    },
+    {
+      "id": 2,
+      "nombre": "Programación",
+      "seccion": "2",
+      "profeId": "1"
+    },
+    {
+      "id": 3,
+      "nombre": "Calidad de Software",
+      "seccion": "1",
+      "profeId": "2"
+    },
+    {
+      "id": 4,
+      "nombre": "Calidad de Software",
+      "seccion": "2",
+      "profeId": "2"
+    },
+    {
+      "id": 5,
+      "nombre": "Arquitectura",
+      "seccion": "1",
+      "profeId": "3"
+    },
+    {
+      "id": 6,
+      "nombre": "Arquitectura",
+      "seccion": "2",
+      "profeId": "3"
+    },
+    {
+      "id": 7,
+      "nombre": "Bases de Datos",
+      "seccion": "1",
+      "profeId": "4"
+    },
+    {
+      "id": 8,
+      "nombre": "Bases de Datos",
+      "seccion": "2",
+      "profeId": "4"
+    },
+    {
+      "id": 9,
+      "nombre": "Matemáticas",
+      "seccion": "1",
+      "profeId": "5"
+    },
+    {
+      "id": 10,
+      "nombre": "Matemáticas",
+      "seccion": "2",
+      "profeId": "5"
+    },
+    {
+      "id": 11,
+      "nombre": "Inglés",
+      "seccion": "1",
+      "profeId": "6"
+    },
+    {
+      "id": 12,
+      "nombre": "Inglés",
+      "seccion": "2",
+      "profeId": "6"
+    },
+    {
+      "id": 13,
+      "nombre": "Ciberseguridad",
+      "seccion": "2",
+      "profeId": "7"
+    }
+  ],
+  "asistencias": [
+    {
+      "usuario_id": "1",
+      "asignatura_id": 1,
+      "fecha": "2024-11-01T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "1",
+      "asignatura_id": 3,
+      "fecha": "2024-11-02T08:00:00Z",
+      "asistio": false
+    },
+    {
+      "usuario_id": "1",
+      "asignatura_id": 5,
+      "fecha": "2024-11-01T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "1",
+      "asignatura_id": 7,
+      "fecha": "2024-11-02T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "1",
+      "asignatura_id": 9,
+      "fecha": "2024-11-03T08:00:00Z",
+      "asistio": false
+    },
+    {
+      "usuario_id": "1",
+      "asignatura_id": 11,
+      "fecha": "2024-11-04T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 11,
+      "fecha": "2024-11-01T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 1,
+      "fecha": "2024-11-02T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 3,
+      "fecha": "2024-11-01T08:00:00Z",
+      "asistio": false
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 5,
+      "fecha": "2024-11-02T08:00:00Z",
+      "asistio": false
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 7,
+      "fecha": "2024-11-03T08:00:00Z",
+      "asistio": true
+    },
+    {
+      "usuario_id": "2",
+      "asignatura_id": 13,
+      "fecha": "2024-11-04T08:00:00Z",
+      "asistio": true
+    }
+  ]
+}

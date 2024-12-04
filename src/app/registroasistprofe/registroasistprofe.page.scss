@@ -1,0 +1,113 @@
+/* Estilo global del cuerpo de la aplicación */
+ion-app {
+  font-family: 'Arial', sans-serif;
+  background-color: #000; /* Color de fondo negro */
+  color: #fff; /* Color de texto blanco por defecto */
+}
+
+/* Estilo del ion-toolbar */
+ion-toolbar {
+  color: #000000; /* Color del texto en el toolbar */
+  padding: 10px 15px; /* Espaciado interno del toolbar */
+}
+
+/* Estilo del título en el toolbar */
+ion-title h1 {
+  font-size: 24px; /* Tamaño del texto */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilo de ion-card */
+ion-card {
+  border-radius: 12px; /* Bordes redondeados */
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Sombra sutil en blanco */
+  margin: 20px; /* Margen alrededor del card */
+  background-color: #222; /* Color de fondo del card */
+  width: 100%; /* Aseguramos que la tarjeta ocupe todo el ancho disponible */
+  margin-bottom: 10px; /* Separación entre tarjetas */
+  min-height: 150px; /* Establecer una altura mínima para las tarjetas */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Para centrar el contenido si es necesario */
+}
+
+/* Estilo del encabezado del card */
+ion-card-header {
+  background-color: #121a85; /* Color de fondo del encabezado en amarillo */
+  color: #000000; /* Color del texto del encabezado */
+  border-top-left-radius: 12px; /* Bordes redondeados en la parte superior */
+  border-top-right-radius: 12px; /* Bordes redondeados en la parte superior */
+  padding: 15px; /* Espaciado interno */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo del título del card */
+ion-card-title {
+  color: black; /* Cambia el color del título a negro */
+}
+
+/* Estilo del contenido del card */
+ion-card-content {
+  padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo de los ion-items */
+ion-item {
+  --background: transparent; /* Sin color de fondo */
+  --border-radius: 0; /* Sin bordes redondeados */
+  margin-bottom: 10px; /* Margen inferior */
+  color: #000000; /* Color del texto */
+  transition: background-color 0.3s ease; /* Transición suave */
+  margin: 0;
+}
+
+/* Efecto hover en los ion-items */
+ion-item:hover {
+  --background: rgba(255, 215, 0, 0.5); /* Fondo amarillo claro al pasar el mouse */
+}
+
+/* Estilo de los iconos dentro de los ion-items */
+ion-icon {
+  color: #121a85; /* Color de los iconos en amarillo */
+}
+
+/* Estilo del ion-back-button para asegurarse de que se vea */
+ion-back-button {
+  color: #000000; /* Color del texto del botón de retroceso */
+}
+
+/* Estilo del título de bienvenida */
+.welcome-title {
+  font-size: 20px; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+  text-align: center; /* Centrar el texto */
+  color: #010101; /* Color negro para el título */
+}
+
+/* Estilo del mensaje de bienvenida */
+.welcome-message {
+  font-size: 16px; /* Tamaño del texto */
+  color: #000000; /* Color negro para el mensaje de bienvenida */
+  margin-bottom: 15px; /* Margen inferior */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Estilo de la sección */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  color: #121a85; /* Color de texto amarillo para las secciones */
+}
+
+/* Estilo del QR */
+qrcode {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,37 @@
+<ion-app>
+  <ion-router-outlet>
+    <ion-header>
+      <ion-toolbar style="background-color: #121a85;"> <!-- Cambiado a amarillo -->
+        <ion-title style="color: #000000;"> INGRESO DE USUARIO </ion-title> <!-- Texto negro -->
+      </ion-toolbar>
+    </ion-header>
+    
+    <ion-content class="ion-padding">
+      <ion-card class="ion-padding">
+        <ion-list>
+          <ion-item>
+            <ion-icon name="person-circle-outline" slot="start" style="color: #121a85;"></ion-icon>
+            <ion-label position="floating" style="color: #000000;">Usuario</ion-label>
+            <ion-input [(ngModel)]="nombreusuario" type="text"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon name="lock-closed-outline" slot="start" style="color: #121a85;"></ion-icon>
+            <ion-label position="floating" style="color: #000000;">Contraseña</ion-label>
+            <ion-input [(ngModel)]="clave" type="password"></ion-input>
+          </ion-item>
+        </ion-list>
+
+        <ion-button expand="block" color="yellow" (click)="ingresar()" fill="solid" shape="round" style="color: #000000;">
+          <ion-icon name="log-in-outline" slot="start" style="color: #121a85;"></ion-icon>
+          Ingresar
+        </ion-button>
+
+        <ion-button expand="block" color="yellow" (click)="reestablecercontrasena()" fill="outline" shape="round" style="color: #000000;">
+          <ion-icon name="key-outline" slot="start" style="color: #121a85;"></ion-icon>
+          Restablecer Contraseña
+        </ion-button>
+      </ion-card>
+    </ion-content>
+  </ion-router-outlet>
+</ion-app>

@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #f0f0f5, #ffffff); /* (135deg, #f0f0f5, #ffffff) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header-toolbar { 
+  background-color: #121a85; /* Color de fondo azul para el encabezado */ /* 121a85 = Azul */  /* FFD700 = Amarillo */
+}
+
+.header-title {
+  color: #010101; /* Texto negro para el título */
+}
+
+.icon {
+  color: #121a85; /* Color azul para los íconos */
+}
+
+.floating-label {
+  color: #121a85; /* Color azul para las etiquetas flotantes */
+}
+
+.button {
+  color: #121a85; /* Color azul para el texto de los botones */
+}
+
+ion-item {
+  --highlight-color-focused: #121a85;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+ion-item:focus-within {
+  background-color: rgba(255, 215, 0, 0.1);
+  border: 1px solid #121a85;
+  transform: scale(1.02);
+}
+
+ion-input:focus {
+  transform: translateY(-2px);
+}
+
+ion-item ion-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+ion-item:focus-within ion-icon {
+  transform: scale(1.2);
+  color: #121a85;
+}

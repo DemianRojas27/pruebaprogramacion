@@ -1,0 +1,154 @@
+/* Estilo global del cuerpo de la aplicación */
+ion-app {
+    font-family: 'Arial', sans-serif;
+    background-color: #000; /* Color de fondo negro */
+    color: #000000; /* Color de texto blanco por defecto */
+  }
+  
+  /* Estilo del ion-toolbar */
+  ion-toolbar {
+    color: #000000; /* Color del texto en el toolbar */
+    padding: 10px 15px; /* Espaciado interno del toolbar */
+  }
+  
+  /* Estilo del título en el toolbar */
+  ion-title h1 {
+    font-size: 24px; /* Tamaño del texto */
+    margin: 0; /* Sin margen */
+  }
+  
+  /* Estilo de ion-card */
+  ion-card {
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1); /* Sombra sutil en blanco */
+    margin: 20px; /* Margen alrededor del card */
+    background-color: #222; /* Color de fondo del card */
+  }
+  
+  /* Estilo del encabezado del card */
+  ion-card-header {
+    background-color: #121a85; /* Color de fondo del encabezado en azul */
+    color: #fff; /* Color del texto del encabezado */
+    border-top-left-radius: 12px; /* Bordes redondeados en la parte superior */
+    border-top-right-radius: 12px; /* Bordes redondeados en la parte superior */
+    padding: 15px; /* Espaciado interno */
+  }
+  
+  /* Estilo del título del card */
+  .welcome-title {
+    font-size: 20px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  /* Estilo del contenido del card */
+  ion-card-content {
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilo del mensaje de bienvenida */
+  .welcome-message {
+    font-size: 16px; /* Tamaño del texto */
+    color: #000000; /* Color del texto */
+    margin-bottom: 15px; /* Margen inferior */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  /* Estilo de los ion-items */
+  ion-item {
+    --background: transparent; /* Sin color de fondo */
+    --border-radius: 0; /* Sin bordes redondeados */
+    margin-bottom: 10px; /* Margen inferior */
+    color: #000000; /* Color del texto */
+    transition: background-color 0.3s ease; /* Transición suave */
+  }
+  
+  /* Efecto hover en los ion-items */
+  ion-item:hover {
+    --background: rgba(255, 215, 0, 0.5); /* Fondo amarillo claro al pasar el mouse */
+  }
+  
+  /* Estilo de los iconos dentro de los ion-items */
+  ion-icon {
+    color: #FFD700; /* Color de los iconos en amarillo */
+  }
+  
+  /* Estilo del ion-back-button para asegurarse de que se vea */
+  ion-back-button {
+    color: #000000; /* Color del texto del botón de retroceso */
+  }
+  .welcome-title {
+    color: #010101; /* Color negro para el título */
+  }
+  
+  .welcome-message {
+    color: #ffffff; /* Color negro para el mensaje de bienvenida */
+  }
+
+  .scanner-card {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .scanner-card {
+    background-color: black;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  .scanner-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  .scanner {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+  
+  /* Estilos para las esquinas */
+  .corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 3px solid yellow;
+  }
+  
+  .top-left {
+    top: 10px;
+    left: 10px;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .top-right {
+    top: 10px;
+    right: 10px;
+    border-left: none;
+    border-bottom: none;
+  }
+  
+  .bottom-left {
+    bottom: 10px;
+    left: 10px;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .bottom-right {
+    bottom: 10px;
+    right: 10px;
+    border-left: none;
+    border-top: none;
+  }
+  

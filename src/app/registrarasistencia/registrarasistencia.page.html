@@ -1,0 +1,30 @@
+<ion-app>
+  <ion-header>
+    <ion-toolbar style="background-color: black;">
+      <ion-title style="color: white;">Registrar Asistencia</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="menuprincipal" style="--color: white;"></ion-back-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="ion-padding">
+    <ion-card class="scanner-card">
+      <ion-card-header>
+        <ion-card-title style="color: white; text-align: center;">Escanea el Código QR</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <div class="scanner-container">
+          <!-- Esquinas decorativas para el marco del escáner QR -->
+          <div class="corner top-left"></div>
+          <div class="corner top-right"></div>
+          <div class="corner bottom-left"></div>
+          <div class="corner bottom-right"></div>
+          
+          <!-- Escáner QR -->
+          <zxing-scanner (scanSuccess)="onScanSuccess($event)" class="scanner"></zxing-scanner>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+</ion-app>
